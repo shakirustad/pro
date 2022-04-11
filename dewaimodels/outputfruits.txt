@@ -1,0 +1,65 @@
+fruit_label fruit_name fruit_subtype  mass  width  height  color_score
+0            1      apple  granny_smith   192    8.4     7.3         0.55
+1            1      apple  granny_smith   180    8.0     6.8         0.59
+2            1      apple  granny_smith   176    7.4     7.2         0.60
+3            2   mandarin      mandarin    86    6.2     4.7         0.80
+4            2   mandarin      mandarin    84    6.0     4.6         0.79
+['apple' 'mandarin' 'orange' 'lemon']
+fruit_name
+apple       19
+lemon       16
+mandarin     5
+orange      19
+dtype: int64
+Accuracy of Logistic Regression classifier on training set: 0.75
+Accuracy of Logistic Regression classifier on testing set: 0.47
+Accuracy of Decision Tree classifier on training set: 1.00
+Accuracy of Decision Tree classifier on training set: 0.60
+Accuracy of Knn classifier on training set: 0.95
+Accuracy of Knn classifier on training set: 0.80
+Accuracy of Naive Bayes classifier on training set: 0.86
+Accuracy of Naive Bayes classifier on training set: 0.47
+Accuracy of SVM classifier on training set: 0.91
+Accuracy of SVM classifier on training set: 0.73
+[[4 0 0 0]
+ [0 1 0 0]
+ [2 0 5 1]
+ [0 0 0 2]]
+              precision    recall  f1-score   support
+
+           1       0.67      1.00      0.80         4
+           2       1.00      1.00      1.00         1
+           3       1.00      0.62      0.77         8
+           4       0.67      1.00      0.80         2
+
+    accuracy                           0.80        15
+   macro avg       0.83      0.91      0.84        15
+weighted avg       0.87      0.80      0.80        15
+
+
+Accuracy of Logistic Regression classifier on training set: 0.75
+Accuracy of Logistic Regression classifier on testing set: 0.47
+Accuracy of Decision Tree classifier on training set: 1.00
+Accuracy of Decision Tree classifier on training set: 0.60
+Accuracy of Knn classifier on training set: 0.95
+Accuracy of Knn classifier on training set: 0.80
+Accuracy of Naive Bayes classifier on training set: 0.86
+Accuracy of Naive Bayes classifier on training set: 0.47
+Accuracy of SVM classifier on training set: 0.91
+Accuracy of SVM classifier on training set: 0.73
+[[4 0 0 0]
+ [0 1 0 0]
+ [3 0 3 2]
+ [0 0 1 1]]
+              precision    recall  f1-score   support
+
+           1       0.57      1.00      0.73         4
+           2       1.00      1.00      1.00         1
+           3       0.75      0.38      0.50         8
+           4       0.33      0.50      0.40         2
+
+    accuracy                           0.60        15
+   macro avg       0.66      0.72      0.66        15
+weighted avg       0.66      0.60      0.58        15
+
+
